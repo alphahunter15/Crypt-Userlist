@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import datetime
 import reverse_isaiah
 import reverse_angel
@@ -25,7 +27,7 @@ if password == 'communist':
             i.write('\n')
             i.close()
         elif command == 'read':
-            print(exec('reverse_isaiah'))
+            print(reverse_isaiah.fwd_str('reverse_isaiah'))
         else:
             print('unexpected command, try again')
     else:
